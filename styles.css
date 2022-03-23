@@ -10,11 +10,15 @@
 }
 
 body {
-  background-color: black;
   width: 100%;
   height: 100vh;
   overflow: hidden;
   position: relative;
+  background-image: url('./images/Group\ 2318.svg');
+  background-color: black;
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-size: contain;
 }
 
 .main {
@@ -26,10 +30,11 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
 }
 
 .image {
-  position: fixed;
+  position: absolute;
   bottom: -6%;
   width: 25%;
   min-width: 350px;
@@ -122,6 +127,6 @@ button:hover {
     padding: 0.5rem;
   }
   .image {
-    min-width: 200px;
+    min-width: 180px;
   }
 }
